@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link href="./src/output.css" rel="stylesheet">
+    <link href="./src/non-tailwind.css" rel="stylesheet">
+    <title>Coffee Mugs Shop</title>
+</head>
+
+<body class="text-[#1d1f2e]">
+    <Header class="mt-7 tracking-2px mb-20">
+        <div class="flex justify-center items-center">
+            <div class="flex">
+                <img src="./assets/logo.svg" alt="Logo">
+                <div class="ml-24">
+                    <ul class="flex gap-8 text-lg leading-5">
+                        <li class="hover:text-[#286bcc]"><a href="#">Home</a></li>
+                        <li class="hover:text-[#286bcc]"><a href="#">Our Products</a></li>
+                        <li class="hover:text-[#286bcc]"><a href="#">About</a></li>
+                        <li class="hover:text-[#286bcc]"><a href="#">Contact</a></li>
+                        <li class="hover:text-[#286bcc]"><a href="#">Styleguide</a></li>
+                    </ul>
+                </div>
+                <div class="ml-14">
+                    <ul class="flex gap-3 hover:cursor-pointer">
+                        <li><img сlass="hover:text-[#286bcc]" src="./assets/cart.svg" href="#" alt="Cart"></li>
+                        <li class="hover:text-[#286bcc] font-bold">
+                            <p>Cart</p>
+                        </li>
+                        <div class="card-count bg-gray-950 rounded-full w-6 h-6 flex items-center justify-center">
+                            <span class="text-white ml-[3px]">0</span>
+                          </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </Header>
+    <section class="bg-[#050827] flex justify-center items-center mb-[75px]">
+        <div class="relative">
+            <img src="./assets/coffeeMugs.png" alt="Coffee Mugs" class="w-full h-auto" />
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
+                <div>
+                    <p class="text-[#e6e6e9] text-base mb-5">Best place to buy design</p>
+                    <h class="text-xl">Coffee Mugs</h>
+                    <p class="text-lg mt-8 w-[1000px]">The most versatile furniture system ever created. Designed to fit
+                        your life,
+                        made to move and grow.</p>
+                    <button class="text-black font-bold w-56 h-12 bg-white hover:bg-[#f2f2f2] mt-10">
+                        Explore Our Products
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="flex flex-col items-center justify-center max-w-[940px] mx-auto">
+        <div class="text-center">
+            <h class="text-lg_2">Even the all-powerful Pointing has no control about the blind texts.</h>
+            <p class="text-base text-[#afb0b5] mt-4 mb-5">It is a paradisematic country, in which roasted parts of
+                sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is
+                an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum
+                decided to leave for the far World of Grammar.</p>
+            <a href="#"
+                class="text-lg text-[#a25f4b] relative inline-block border-b-2 border-transparent hover:border-[#ecdfdb] mt-2">Read
+                the full Story</a>
+        </div>
+        <div class="mt-[100px]">
+            <div class="flex items-center justify-center mb-[100px]">
+                <div class="w-[30px] h-[1px] bg-[#ececed] mr-4"></div>
+                <h class="text-base tracking-2px">Featured Mugs</h>
+                <div class="w-[30px] h-[1px] bg-[#ececed] ml-4"></div>
+            </div>
+            <div class="grid grid-cols-2 gap-5" id="FeaturedMugs">
+                <!-- products.json -->
+            </div>
+            <div class="flex items-center justify-center mt-[35px] mb-[100px]">
+                <div class="w-[30px] h-[1px] bg-[#ececed] mr-4"></div>
+                <h class="text-base tracking-2px">More Products</h>
+                <div class="w-[30px] h-[1px] bg-[#ececed] ml-4"></div>
+            </div>
+            <div class="grid grid-cols-3 gap-4" id="MoreProducts">
+                <!-- products.json -->
+            </div>
+        </div>
+        <div class="flex items-center justify-center mt-[100px] mb-[100px]">
+            <div class="w-[30px] h-[1px] bg-[#ececed] mr-4"></div>
+            <h class="text-base tracking-2px">Buy 2 mugs and get a coffee magazine free</h>
+            <div class="w-[30px] h-[1px] bg-[#ececed] ml-4"></div>
+        </div>
+        <div class="flex justify-center items-center mb-[120px]">
+            <div class="flex gap-5">
+                <div>
+                    <img src="./assets/Book.png" alt="Book">
+                </div>
+                <div class="flex flex-col gap-5">
+                    <img src="./assets/coffeeMugTop.png" alt="Coffee Mug Bottom">
+                    <img src="./assets/coffeeMugBottom.png" alt="Coffee Mug Bottom">
+                </div>
+            </div>
+            <div class="ml-20 transfer">
+                <p class="tracking-2px text-base mb-5">Premium Offer</p>
+                <h class="text-lg3 mb-5">Get our Coffee Magazine</h>
+                <p class="base2 text-[#6d6f78] mb-10">The most versatile furniture system ever created. Designed to fit
+                    your life.</p>
+                <button class="tracking-2px text-white text-base_2 w-56 h-12 bg-[#1d1f2e] hover:bg-[#000000]">Start
+                    Shopping</button>
+            </div>
+        </div>
+    </section>
+    <img class="w-full h-auto mx-auto mb-[100px]" src="./assets/sectionOff.png" alt="sectionOff">
+    <section>
+        <div class="flex items-center justify-center mt-[100px] mb-[100px]">
+            <div class="w-[30px] h-[1px] bg-[#ececed] mr-4"></div>
+            <h class="text-base tracking-2px">Behind the mugs, lifestyle stories</h>
+            <div class="w-[30px] h-[1px] bg-[#ececed] ml-4"></div>
+        </div>
+        <div class="flex justify-center items-center">
+            <div class=" max-w-[960px] flex justify-center items-start gap-5">
+                <div class="flex flex-col items-start">
+                    <img class="mb-7 max-w-[300px] max-h-[300px]" src="./assets/CoffeeShopLeft.png"
+                        alt="Coffee Shop Left">
+                    <h class="text-lg2">Health Check: why do I get a headache when I haven’t had my coffee?</h>
+                    <p class="text-base_2 mt-4 mb-4 text-[#6d6f78]">It is a paradisematic country, in which roasted
+                        parts of sentences fly into your mouth.</p>
+                    <span class="text-base">October 9, 2018</span>
+                </div>
+                <div cclass="flex flex-col items-start">
+                    <img class="mb-7 max-w-[300px] max-h-[300px]" src="./assets/CoffeeShopCenter.png"
+                        alt="Coffee Shop Left">
+                    <h class="text-lg2">How long does a cup of coffee keep you awake?</h>
+                    <p class="text-base_2 mt-4 mb-4 text-[#6d6f78]">It is a paradisematic country, in which roasted
+                        parts. Vel qui et ad voluptatem.</p>
+                    <span class="text-base">October 9, 2018</span>
+                </div>
+                <div class="flex flex-col items-start">
+                    <img class="mb-7 max-w-[300px] max-h-[300px]" src="./assets/CoffeeShopRight.png"
+                        alt="Coffee Shop Left">
+                    <h class="text-lg2">Recent research suggests that heavy coffee drinkers may reap health
+                        benefits.
+                    </h>
+                    <p class="text-base_2 mt-4 mb-4 text-[#6d6f78]">It is a paradisematic country, in which roasted
+                        parts. Vel qui et ad voluptatem.</p>
+                    <span class="text-base">October 9, 2018</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="bg-[#1d1f2e] text-white mt-[189px] mb-[107px] pt-[80px] pb-[80px]">
+            <div class="flex items-center justify-center mb-4">
+                <div class="w-[30px] h-[1px] bg-[#ececed] mr-4"></div>
+                <h class="text-base tracking-2px">Sign up and get free coffee bags</h>
+                <div class="w-[30px] h-[1px] bg-[#ececed] ml-4"></div>
+            </div>
+            <div class="flex justify-center">
+                <div class="flex-col items-center justify-center">
+                    <div class="flex justify-center text-lg3 mb-6">
+                        <h>Coffee Updates</h>
+                    </div>
+                    <form class="flex">
+                        <div class="border border-[#2f303e] mr-[10px]">
+                            <input type="email" placeholder="CUSTOMER@COFFEESTYLE.IO"
+                                class="tracking-2px text-base w-[350px] h-[54px] px-[18px] py-[18px] bg-transparent focus:outline-none" />
+                        </div>
+                        <button
+                            class="tracking-2px text-base text-black w-[129px] h-[54px] bg-white hover:bg-[#f2f2f2]">
+                            SUBSCRIBE
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="flex justify-center items-start mb-14">
+            <div class="mr-14">
+                <div сlass="flex flex-col justify-center items-start">
+                    <img src="./assets/logo.svg" alt="Logo" class="mb-6">
+                    <p class="text-base text-[#6d6f78] mb-36">Delivering the best coffee life since 1996.&nbsp;<br>From
+                        coffee geeks to the real ones.</p>
+                    <span class="text-[#6d6f78]">CoffeeStyle Inc. © 1996</span>
+                </div>
+            </div>
+            <div class="mr-20">
+                <div сlass="flex flex-col justify-center">
+                    <h class="font-bold">Menu</h>
+                    <ul class="flex flex-col gap-[10px] mt-6">
+                        <li class="hover:text-[#286bcc]"><a href="#">Home</a></li>
+                        <li class="hover:text-[#286bcc]"><a href="#">Our Products</a></li>
+                        <li class="hover:text-[#286bcc]"><a href="#">About</a></li>
+                        <li class="hover:text-[#286bcc]"><a href="#">Contact</a></li>
+                        <li class="hover:text-[#286bcc]"><a href="#">Styleguide</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div сlass="flex flex-col justify-center">
+                    <h class="font-bold">Follow Us</h>
+                    <ul class="flex flex-col gap-[10px] mt-6">
+                        <li class="hover:text-[#286bcc]"><a href="#">Facebook</a></li>
+                        <li class="hover:text-[#286bcc]"><a href="#">Instagram</a></li>
+                        <li class="hover:text-[#286bcc]"><a href="#">Pinterest</a></li>
+                        <li class="hover:text-[#286bcc]"><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ml-20">
+                <div сlass="flex flex-col justify-center">
+                    <h class="font-bold">Contact Us</h>
+                    <ul class="flext flex-col">
+                        <li><p class="mt-6 mb-4">We're Always Happy to Help</p></li>
+                        <li class="text-lg_2 hover:text-[#286bcc]"><a href="#" class="mt-4">us@coffeestyle.io</a></li>
+                        <li class="mt-24 text-[#6d6f78]"><span>Powered by Webflow</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+.product {
+    margin-bottom: 65px;
+}
+
+.product:hover {
+    cursor: pointer;
+    border: 1px solid #ffffff
+}
+
+.product__name {
+    margin-top: 35px;
+}
+
+.product__price {
+    margin-top: 5px;
+    color: #8b8c93;
+}
+
+.product__price-new {
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #a25f4b;
+}
+
+.product__price-old {
+    margin-top: 5px;
+    color: #c7c7cb;
+    text-decoration: line-through;
+}

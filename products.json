@@ -1,0 +1,71 @@
+[
+    {
+      "id": 1,
+      "image": "./assets/PinkPremiumCeramic.png",
+      "name": "Pink Premium Ceramic",
+      "price": 99.00
+    },
+    {
+        "id": 2,
+        "image": "./assets/GoldenDesignersMug.png",
+        "name": "Golden Designers Mug",
+        "price": 50.00,
+        "price_old": 69.00
+    },
+    {
+        "id": 3,
+        "image": "./assets/RedLoveCup.png",
+        "name": "Red Love Cup",
+        "price": 25.00,
+        "price_old": 37.00
+    },
+    {
+        "id": 4,
+        "image": "./assets/BlackTeaCup.png",
+        "name": "Black Tea Cup",
+        "price": 15.00,
+        "price_old": 29.00
+    },
+    {
+        "id": 5,
+        "image": "./assets/EssentialsMug.png",
+        "name": "B&W Essentials Mug",
+        "price": 19.00
+    },
+    {
+        "id": 6,
+        "image": "./assets/WinterStyleMug.png",
+        "name": "Winter Style Mug",
+        "price": 25.00
+    },
+    {
+        "id": 7,
+        "image": "./assets/CeramicTea.png",
+        "name": "Ceramic Tea",
+        "price": 46.00
+    },
+    {
+        "id": 8,
+        "image": "./assets/NoHandleBarCup.png",
+        "name": "No Handle Bar Cup",
+        "price": 34.00
+    },
+    {
+        "id": 9,
+        "image": "./assets/EspressoCupbyMugs.png",
+        "name": "Espresso Cup by Mugs",
+        "price": 25.00
+    },
+    {
+        "id": 10,
+        "image": "./assets/PinkPremiumCeramic2.png",
+        "name": "Pink Premium Ceramic",
+        "price": 99.00
+    },
+    {
+        "id": 11,
+        "image": "./assets/SummerDesignerCup.png",
+        "name": "Summer Designer Cup",
+        "price": 29.00
+    }
+  ]
